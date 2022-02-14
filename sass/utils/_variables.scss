@@ -1,0 +1,27 @@
+// Палітра кольорів макета і набори шрифтів винесені у змінні
+:root {
+  --white-color: #ffffff;
+  --black-color: #212121;
+  --grey-color: #757575;
+  --blue-color: #2196f3;
+  --grey-color-social: #AFB1B8;
+}
+// шрифти
+
+.accent {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--blue-color);
+}
+
+.work__title {
+  display: flex;  
+  margin: 0 auto 50px;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}

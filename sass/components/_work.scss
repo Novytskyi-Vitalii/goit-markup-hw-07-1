@@ -1,0 +1,21 @@
+.work {
+  padding-bottom: 94px;
+
+  &__list {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+  &-card {
+  position: relative;
+  margin-right: 30px;
+  width: calc((100% - 30px) / 3);
+}
+&-card:nth-child(3n + 3) {
+  margin-right: 0;
+}
+}
+.content-about {
+  width: 370px;
+  height: 294px;
+}
